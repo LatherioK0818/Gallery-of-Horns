@@ -29,9 +29,16 @@ const imageData = [
 ];
 
 function Gallery() {
+    const containerStyle = {
+      display: 'flex',
+      justifyContent: 'center',
+      alignItems: 'center',
+      flexWrap: 'wrap',
+    };
+
   return (
     <div className="App">
-      <HornedBeast prop={imageData} />
+      <HornedBeast props={imageData} />
     </div>
   );
 }

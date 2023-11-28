@@ -1,11 +1,17 @@
 import React from 'react';
 
 const Header = () => {
+  const headerStyle = {
+    background: 'blue',
+    color: 'white',
+    textAlign: 'center',
+    padding: '10px', // Adjust as needed
+  };
   return (
-    <header>
-      <h1>Gallery of Horns</h1>
-    </header>
-  );
+    <header style={headerStyle}>
+   <h1>{props.title}</h1>
+  </header>
+);
 };
 
 export default Header;
