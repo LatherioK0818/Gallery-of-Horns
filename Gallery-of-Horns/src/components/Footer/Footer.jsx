@@ -1,9 +1,16 @@
 import React from 'react';
-import styles from './footer.module.css';
+
 const Footer = () => {
+  const footerStyle ={
+    background: 'blue',
+    color: 'white',
+    textAlign: 'center',
+    fontweight: 'bold',
+    padding: '15px', /* Adjust as needed */
+  };
   return (
-    <footer>
-      <p>Author: Your Name</p>
+    <footer style={footerStyle}>
+      <p>Author: Latherio Kidd &copy; 2023;</p>
     </footer>
   );
 };
