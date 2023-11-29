@@ -1,7 +1,7 @@
 // HornedBeast.jsx
 import React, { useState } from 'react';
-import Button from 'react-bootstrap/Button';
-import Card from 'react-bootstrap/Card';
+import Button from 'react-bootstrap/esm/Button';
+import Card from 'react-bootstrap/esm/Card';
 
 function HornedBeast({ item }) {
   const [favorites, setFavorites] = useState(0);
