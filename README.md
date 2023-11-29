@@ -70,11 +70,42 @@ What are we going to implement?
 How are we implementing it?
 When the user clicks on elements such as the header, footer or title of page, make something change using state.
 You can update the words, change the styles or add something new. Be creative.
+
 Submission Instructions
 Complete your Feature Tasks for the day
 Run your Lighthouse Accessibility report looking for a score of 65 or higher. Make adjustments as needed.
+
+![Alt text](image.png)
+
+
 Create a Pull Request (PR) back to the main branch of your repository
+
 On Canvas, submit a link to your PR and a link to your deployed application on Netlify. Add a comment in your Canvas assignment which includes the following:
 A question within the context of the lab assignment
 An observation about the lab assignment, or related ‘Ah-hah!’ moment
-How long you spent working on this assignment
+
+
+## How long you spent working on this assignment?
+
+
+Feature #1: Display Images
+Estimate of time needed to complete: 1.5 hours
+Start time: 6:00 pm
+Finish time: 8:30 pm
+Actual time needed to complete: 2.5 hours
+Record this information in your README.
+
+Feature #2: Allow Users to Favorite Individual Beasts
+Estimate of time needed to complete: 1.5 hours
+Start time: 8:30 pm
+Finish time: 10:00 pm
+Actual time needed to complete: 2.5 hours
+Record this information in your README.
+
+Feature #3: Bootstrap
+Estimate of time needed to complete: 2.5 hours
+Start time: 10:00 pm
+Finish time: 1:20 am
+Actual time needed to complete: 4.5 hours
+Record this information in your README.
+
