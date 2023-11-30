@@ -16,25 +16,11 @@ function HornedBeast({ item }) {
   const handleClose = () => setShow(false);
   const handleShow = () => setShow(true);
 
-  const containerStyle = {
-    textAlign: 'center',
-    margin: '20px',
-    border: '1px solid #ccc',
-    borderRadius: '10px',
-    background: "teal",
-    fontWeight: 'bold',
-  };
-
-  const imageStyle = {
-    width: 800,
-    maxHeight: '300px',
-    objectFit: 'cover',
-  };
   return (
     <>
-    <Card style={containerStyle} onClick={handleShow}>
-      <Card.Img variant="top" src={item.image_url} alt={item.title} style={imageStyle} />
+    <Card onClick={handleShow}>
       <Card.Body><h3>{item.title}</h3>
+      <Card.Img variant="top" src={item.image_url} alt={item.title} />
       <p>{item.description}</p>
       <p>Keyword: {item.keyword}</p>
       <p>Horns: {item.horns}</p>
@@ -57,7 +43,7 @@ function HornedBeast({ item }) {
               <p>Favorites: {favorites}</p>
         </Modal.Body>
         <Modal.Footer>
-          <Button variant="secondary" onClick={handleClose}>
+          <Button variant="top" onClick={handleClose}>
             Close
           </Button>
         </Modal.Footer>

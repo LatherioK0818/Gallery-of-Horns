@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import HornedBeast from '../HornedBeast/HornedBeast';
 import imageData from '../../assets/data.json';
-import styles from './gallery.module.css';
+
 function Gallery() {
   const [filter, setFilter] = useState(0);
 
@@ -14,15 +14,17 @@ function Gallery() {
   return (
     <>
       <div>
-        <label>Filter by Horns: </label>
+        <label><h2>Filter by Horns:</h2> </label>
         <select onChange={handleFilterChange}>
           <option value={0}>All</option>
           <option value={1}>One Horn</option>
           <option value={2}>Two Horns</option>
+          <option value={3}>Three Horns</option>
+          <option value={100}>100 Horns</option>
           {/* Add options for other horn counts */}
         </select>
       </div>
-      <div className={styles.main}>
+      <div>
         {filteredData.map(item => (
           <HornedBeast key={item._id} item={item} />
         ))}
