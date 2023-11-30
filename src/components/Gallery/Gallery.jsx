@@ -1,9 +1,7 @@
 import React, { useState } from 'react';
 import HornedBeast from '../HornedBeast/HornedBeast';
-import Header from '../Header/Header'; // Import Header here
-
 import imageData from '../../assets/data.json';
-
+import styles from './gallery.module.css';
 function Gallery() {
   const [filter, setFilter] = useState(0);
 
@@ -24,7 +22,7 @@ function Gallery() {
           {/* Add options for other horn counts */}
         </select>
       </div>
-      <div style={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'center' }}>
+      <div className={styles.main}>
         {filteredData.map(item => (
           <HornedBeast key={item._id} item={item} />
         ))}
