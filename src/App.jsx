@@ -6,10 +6,11 @@ import data from "./assets/data.json";
 import 'bootstrap/dist/css/bootstrap.min.css';  // Fix the typo in the import statement
 
 function App() {
+
   return (
     <>
       <Header title="Horned Beasts" />
-      <Gallery list={data} />
+      <Gallery list={data}/>
       <Footer />
     </>
   );

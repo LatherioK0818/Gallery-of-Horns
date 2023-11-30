@@ -109,3 +109,37 @@ Finish time: 1:20 am
 Actual time needed to complete: 4.5 hours
 Record this information in your README.
 
+## Lab: Class 03
+
+Time Estimate
+For each of the features listed below, make an estimate of the time it will take you to complete the feature, and record your start and finish times for that feature:
+
+Number and name of feature: ________________________________
+
+Estimate of time needed to complete: _____
+
+Start time: _____
+
+Finish time: _____
+
+Actual time needed to complete: _____
+Add this information to your README.
+
+Feature #1: Display a Modal
+# Why are we implementing this feature?
+
+As a user, I want the image to be displayed in a larger size and with the description shown so that I can view the details of a single image.
+
+# What are we going to implement?
+
+Given that a user wants to view the details of the image
+When the user clicks on an individual image
+Then the image should render larger on the screen with the description displayed
+
+# How are we implementing it?
+
+Import the data.json file into your App component and send that data into the Gallery component
+Map over the JSON data in your Gallery component to render each beast
+Send a function into your Gallery component that allows the user to update state in the App
+Create a SelectedBeast component and include it in your App
+Use the state in the App to render an individual beast in a Modal in the SelectedBeast component using React Bootstrap.
