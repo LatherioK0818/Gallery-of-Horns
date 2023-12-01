@@ -143,3 +143,26 @@ Map over the JSON data in your Gallery component to render each beast
 Send a function into your Gallery component that allows the user to update state in the App
 Create a SelectedBeast component and include it in your App
 Use the state in the App to render an individual beast in a Modal in the SelectedBeast component using React Bootstrap.
+
+
+# Lab: Class 04
+Forms and Filter
+
+## Overview
+
+This is the last class of our Gallery Of Horns. You have horned creatures displaying on the page. When you click on a beast, you increase its favorites and display it as a modal. We will be adding one more piece of functionality: filtering by numbers of horns.
+
+##  Feature 1. Filter by Numbers of Horns
+Git f
+### Why are we implementing this feature?
+
+As a user, I want to be able to view the beasts by the number of horns
+What are we going to implement?
+Given that a user is presented with filtering options
+When the user clicks on one option
+Then the images should be filtered accordingly
+How are we implementing it?
+Using the Form component of react-bootstrap, build a drop down menu so that the user can choose to filter by number of horns.
+When the user chooses one of the options, the correct images should be displayed
+
+![Alt text](image-1.png)
