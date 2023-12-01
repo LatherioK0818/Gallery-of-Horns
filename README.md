@@ -153,7 +153,7 @@ Forms and Filter
 This is the last class of our Gallery Of Horns. You have horned creatures displaying on the page. When you click on a beast, you increase its favorites and display it as a modal. We will be adding one more piece of functionality: filtering by numbers of horns.
 
 ##  Feature 1. Filter by Numbers of Horns
-Git f
+
 ### Why are we implementing this feature?
 
 As a user, I want to be able to view the beasts by the number of horns
