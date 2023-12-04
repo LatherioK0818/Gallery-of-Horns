@@ -17,7 +17,7 @@ h1 {
 h2
 {
   background-color: aliceblue;
-  
+
 }
 
 header, footer {
@@ -34,7 +34,7 @@ header, footer {
 }
 .card-container {
   display: flex;
-  flex-direction: row;
+  flex-direction: wrap;
   gap: 20px; /* Adjust the gap between cards */
 }
 .card {
@@ -46,6 +46,7 @@ header, footer {
   text-align: center;
   text-size-adjust: auto;
   font-size: 40px;
+  width: 200px;
 }
 
 .card-content {
@@ -64,6 +65,7 @@ header, footer {
   z-index: 1;
   float: center;
   align-items: center;
+  background-color: #00725b;
 }
 
 /* Additional styles for the modal */
@@ -81,6 +83,13 @@ header, footer {
   max-width: 100%;
   margin: auto;
 }
+.modal img {
+  max-width: 100%;
+  height: auto;
+  object-fit: cover;
+  margin-bottom: 20px; /* Add spacing between images */
+}
+
 
 /* Add styles for closing the modal (e.g., a close button) */
 .close {
@@ -90,4 +99,9 @@ header, footer {
   color: white;
   font-size: 20px;
   cursor: pointer;
+}
+@media (max-width: 768px) {
+  .card-container {
+    flex-direction: column; /* Stack cards in a column on smaller screens */
+  }
 }
